@@ -1,0 +1,25 @@
+.companies-section {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f2f2f2; /* Adjust background color as per your design */
+  }
+  
+  .companies-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .companies-circles {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .circle {
+    width: 60px;
+    height: 60px;
+    background-color: #000; /* Black color for circles */
+    border-radius: 50%;
+  }
+  

@@ -1,0 +1,45 @@
+.footer-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .footer-menu li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .footer-circles {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .circle {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    margin: 0 10px;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
