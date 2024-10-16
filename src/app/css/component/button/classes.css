@@ -1,0 +1,19 @@
+.btn{
+  border-radius: var(--button-border-radius);
+  color: var(--button-text-color);
+  background-color: var(--button-bg-color);
+  font-weight: var(--button-font-weight);
+  border: 0px;
+}
+
+.btn-small{
+  padding: 0.75rem 2rem;
+}
+
+.btn-medium{
+  padding: 0.75rem 3rem;
+}
+
+.btn-large{
+  padding: 0.75rem 4rem;
+}

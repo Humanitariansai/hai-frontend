@@ -1,0 +1,6 @@
+:root{
+  --button-border-radius : 0.25rem;
+  --button-bg-color : var(--black);
+  --button-text-color : var(--white);
+  --button-font-weight : 500;
+}
