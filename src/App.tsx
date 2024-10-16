@@ -11,16 +11,13 @@ import NavigationBar from './components/navigation'
 const App = () => {
   return (
     <Router>
-      <div>
-        <h1>Humans + AI {'>'} AI</h1>
-        <Footer/>
-        <Contact/>
-        <CompaniesSection/>
-        <AboutScreen/>
-        <FellowAndMentors/>
-        <AIFeatureSkeleton/>
         <NavigationBar/>
-      </div>
+        <AboutScreen/>
+        <AIFeatureSkeleton/>
+        <FellowAndMentors/>
+        <CompaniesSection/>
+        <Contact/>
+        <Footer/>
     </Router>
   );
 };
