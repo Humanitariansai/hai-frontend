@@ -3,8 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Footer from './components/footer';
 import Contact from './components/contact';
 import CompaniesSection from './components/CompaniesSection';
-
-
+import AboutScreen from './components/about'
+import FellowAndMentors from './components/fellowandmentor'
+import AIFeatureSkeleton from './components/aiforgood'
 
 const App = () => {
   return (
@@ -14,6 +15,9 @@ const App = () => {
         <Footer/>
         <Contact/>
         <CompaniesSection/>
+        <AboutScreen/>
+        <FellowAndMentors/>
+        <AIFeatureSkeleton/>
       </div>
     </Router>
   );

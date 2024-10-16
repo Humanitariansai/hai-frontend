@@ -1,0 +1,53 @@
+/* Skeleton loading section */
+.ai-projects-section {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .section-tagline {
+    font-style: italic;
+    margin-bottom: 40px;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .feature-card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .skeleton-icon {
+    background-color: #ddd;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .skeleton-text {
+    background-color: #ddd;
+    height: 20px;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 4px;
+  }
+  
+  .feature-link {
+    background-color: #ddd;
+    height: 20px;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 4px;
+  }
+  

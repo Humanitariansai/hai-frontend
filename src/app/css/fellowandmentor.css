@@ -1,0 +1,62 @@
+.fellow-mentors-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #333; /* Dark background */
+    color: white;
+  }
+  
+  .text-content {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .text-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .text-content .description {
+    margin-bottom: 20px;
+  }
+  
+  .text-content .quote {
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  .text-content .quote-author {
+    display: flex;
+    align-items: center;
+  }
+  
+  .text-content .quote-author input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .image-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-placeholder {
+    background-color: black;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    /* Add a border or any other styling if needed */
+  }
+  
+  .image-placeholder::before {
+    content: '';
+    background-color: white;
+    width: 350px;
+    height: 250px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+  }
+  
