@@ -1,0 +1,58 @@
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f8f8; /* Light gray background */
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-logo span {
+    font-size: 1.5rem;
+    color: black;
+  }
+  
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    margin: 0 20px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: normal;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar-donate {
+    margin-left: auto;
+  }
+  
+  .donate-button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .donate-button:hover {
+    background-color: #333; /* Slight hover effect */
+  }
+  

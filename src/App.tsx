@@ -6,6 +6,7 @@ import CompaniesSection from './components/CompaniesSection';
 import AboutScreen from './components/about'
 import FellowAndMentors from './components/fellowandmentor'
 import AIFeatureSkeleton from './components/aiforgood'
+import NavigationBar from './components/navigation'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <AboutScreen/>
         <FellowAndMentors/>
         <AIFeatureSkeleton/>
+        <NavigationBar/>
       </div>
     </Router>
   );
