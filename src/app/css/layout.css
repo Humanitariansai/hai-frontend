@@ -1,0 +1,13 @@
+.hero-container{
+  height: 70vh;
+  background-color: var(--light-gray);
+  display: flex;
+  justify-content: center;
+}
+
+.hero-container .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

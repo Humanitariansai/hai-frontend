@@ -1,13 +1,11 @@
 /* src/index.css */
 @import url('color.css');
 @import url('component/index.css');
+@import url('layout.css');
+@import url('abstract.css');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   line-height: 1.5;
   background-color: #f0f0f0; /* Change as needed */
-}
-
-h1 {
-  color: #c22424; /* Change as needed */
 }
