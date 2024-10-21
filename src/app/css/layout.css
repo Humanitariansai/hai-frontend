@@ -5,9 +5,14 @@
   justify-content: center;
 }
 
-.hero-container .content{
+.content{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.feature-container{
+  height: 70vh;
+  background-color: var(--light-gray);
 }
