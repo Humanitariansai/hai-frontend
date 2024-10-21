@@ -3,6 +3,7 @@
 @import url('component/index.css');
 @import url('layout.css');
 @import url('abstract.css');
+@import url('component.css');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
