@@ -10,9 +10,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 25px;
 }
 
 .feature-container{
-  height: 70vh;
+  height: 80vh;
   background-color: var(--light-gray);
+}
+
+.mentor-container{
+  height: 70vh;
+  background-color: var(--dark-gray);
 }

@@ -20,6 +20,7 @@ const App = () => {
         <Route path="/mentors" element={<Mentors/>} />
         <Route path="/donate" element={<Donate/>} />
       </Routes>
+      {/* Footer and contact page */}
     </Router>
   );
 };
