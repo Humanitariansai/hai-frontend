@@ -10,7 +10,7 @@ const HeroScreen = ({title}: HeroScreenProps) => {
     <div className='hero-container'>
       <div className='content'>
         <h1>{title}</h1>
-        <p className='hero-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p className='hero-text'>Humanitarians AI is dedicated to creating and supporting projects that leverage AI for social good. Our two core projects include:The Fellows and Mentors program and AI for Good projects.</p>
         <button className="btn btn-medium">Our Mission</button>
       </div>
     </div>

@@ -9,10 +9,10 @@ const MentorSection = () => {
         <div className="mentor-content">
             <h1>Fellow and Mentors</h1>
             <p className="description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            The Humanitarians AI Research Fellows program fosters a community of mentors and fellows dedicated to pioneering ethical AI advancements. Our mentors, distinguished educators, and ai for good leaders bring extensive experience and knowledge, crucial for shaping research direction and maintaining high standards of integrity and quality.
             </p>
             <div className="testimonial">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Fellows Program Mentors Program </p>
                 <div className="author">
                     <div className="author-image"></div>
                     <p>Dhaka Oke, Product Designer</p>

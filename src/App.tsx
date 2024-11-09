@@ -7,6 +7,7 @@ import Project from './pages/projects';
 import Fellows from './pages/fellows';
 import Mentors from './pages/mentors';
 import Donate from './pages/donate';
+import Footer from './components/footer/footer';
 
 const App = () => {
   return (
@@ -20,7 +21,7 @@ const App = () => {
         <Route path="/mentors" element={<Mentors/>} />
         <Route path="/donate" element={<Donate/>} />
       </Routes>
-      {/* Footer and contact page */}
+      <Footer/>
     </Router>
   );
 };

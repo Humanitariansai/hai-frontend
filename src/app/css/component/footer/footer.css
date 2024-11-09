@@ -1,0 +1,130 @@
+.footer{
+    background-color: var(--light-gray); 
+    padding: 50px; 
+    padding-top: 40px;
+    text-align: center;
+
+
+
+}
+
+.contact-form-container {
+    width: 400px; /* Increase the width slightly for better form display */
+    padding: 50px; /* Increase padding to better space the elements */
+    /* background-color: #f5f5f5; */
+    text-align: center;
+    position: relative;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-bottom: 10px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Increase gap between form elements for better spacing */
+}
+
+.form-input {
+    padding: 15px; /* Increase padding for larger, more visible input fields */
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-button {
+    padding: 15px;
+    font-size: 18px; /* Increase button font size for better visibility */
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+    background-color: #333; /* Add a darker hover effect */
+}
+
+h3.form-heading {
+    margin-bottom: 30px; /* Increase margin for spacing below the heading */
+    font-size: 1.8rem; /* Increase the font size of the heading */
+    font-weight: bold;
+    /* color: #333; */
+}
+/* Footer-specific styles */
+.footer-links-container {
+    /* background-color: #f5f5f5; */
+    margin: 150px;
+    /* padding-left: 150px; */
+    text-align: center;
+    justify-content: center;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between the navigation links */
+    margin-bottom: 20px; /* Space between nav and the other sections */
+}
+
+.footer-link {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.1rem; /* Slightly larger text for better visibility */
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #555; /* Hover effect on links */
+}
+
+.footer-logo {
+    margin-bottom: 20px; /* Space between logo and footer */
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+}
+.footer-link.bold-link {
+    font-weight: bold; /* Make the specific link bold */
+}
+.footer-divider {
+    margin: 20px 0;
+    border: none; /* Remove default border */
+    border-top: 1px solid #ccc; /* Create a solid line */
+    width: 80%; /* Adjust the width as needed */
+    margin-left: auto;
+    padding-top: 20px;
+    margin-right: auto; /* Center the divider */
+  }
+  
+
+.footer-socials {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between the social media icons */
+    margin-bottom: 20px; /* Add spacing between icons and footer terms */
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc; /* Placeholder color for social icons */
+}
+
+.footer-terms {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+
+/* Additional styling for responsive design */
+@media (max-width: 768px) {
+    .contact-form-container {
+        width: 90%; /* Ensure the form fits smaller screens */
+    }
+}
