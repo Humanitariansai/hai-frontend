@@ -10,7 +10,7 @@ const Mentors = () => {
   const homeTitle = NAV_LINKS.find((element) => element.label === 'Mentors')?.title || 'Default Title';
   return (
    <>
-    <HeroScreen title={homeTitle}/>
+    <HeroScreen title={homeTitle} bgClassName="hero-mentors"/>
     <GridCardContainer/>
     <FeatureContainer/>
     <GridCard/>

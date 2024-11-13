@@ -7,7 +7,7 @@ const Donate = () => {
   const homeTitle = NAV_LINKS.find((element) => element.label === 'Donate')?.title || 'Default Title';
   return (
    <>
-    <HeroScreen title={homeTitle}/>
+    <HeroScreen title={homeTitle} bgClassName="hero-donate"/>
    </>
   );
 };

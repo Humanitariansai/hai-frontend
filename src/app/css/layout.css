@@ -1,8 +1,50 @@
 .hero-container{
-  height: 70vh;
-  background-color: var(--light-gray);
+  /* height: 70vh;
+  background-image: url('../../assests/Home.jpg');
+  display: flex;
+  justify-content: center; */
+  height: 115vh;
+  position: relative;
   display: flex;
   justify-content: center;
+
+}
+
+.hero-container::before{
+  content: "";
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.6;
+}
+
+.hero-home::before {
+  background-image: url('../../assests/home.jpg');
+}
+
+.hero-about::before {
+  background-image: url('../../assests/mission.jpg');
+}
+
+.hero-fellows::before {
+  background-image: url('../../assests/fellows.jpg');
+}
+
+.hero-projects::before {
+  background-image: url('../../assests/ai4good.jpg');
+}
+
+.hero-mentors::before {
+  background-image: url('../../assests/fellows.jpg');
+}
+
+.hero-donate::before {
+  background-image: url('../../assests/donate.jpg');
 }
 
 .content{
@@ -11,6 +53,7 @@
   justify-content: center;
   align-items: center;
   padding-top: 25px;
+  position: relative;
 }
 
 .feature-container{

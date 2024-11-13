@@ -3,11 +3,12 @@ import '../../app/css/index.css';
 
 interface HeroScreenProps {
   title: string;
+  bgClassName: string;
 }
 
-const HeroScreen = ({title}: HeroScreenProps) => {
+const HeroScreen = ({title, bgClassName}: HeroScreenProps) => {
   return (
-    <div className='hero-container'>
+    <div className={`hero-container ${bgClassName}`}>
       <div className='content'>
         <h1>{title}</h1>
         <p className='hero-text'>Humanitarians AI is dedicated to creating and supporting projects that leverage AI for social good. Our two core projects include:The Fellows and Mentors program and AI for Good projects.</p>

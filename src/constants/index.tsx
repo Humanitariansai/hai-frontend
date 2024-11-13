@@ -4,5 +4,6 @@ export const NAV_LINKS = [
   { href: 'projects', label: 'Projects', title: 'AI for Good Projects' },
   { href: 'fellows', label: 'Fellows', title: 'Fellows & Their Stories' },
   { href: 'mentors', label: 'Mentors', title: 'Mentors & Their Stories' },
-  { href: 'donate', label: 'Donate', title: 'Donate' }
+  { href: 'donate', label: 'Donate', title: 'Donate' },
+  { href: '/', label: 'Contact', title: 'Contact' }
 ];

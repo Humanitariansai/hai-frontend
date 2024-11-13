@@ -11,7 +11,7 @@ const Project = () => {
   const homeTitle = NAV_LINKS.find((element) => element.label === 'Projects')?.title || 'Default Title';
   return (
    <>
-    <HeroScreen title={homeTitle}/>
+    <HeroScreen title={homeTitle} bgClassName="hero-projects"/>
     <GridCardContainer/>
     <FeatureContainer/>
     <GridCard/>

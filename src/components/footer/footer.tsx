@@ -50,14 +50,14 @@ const Footer = () => {
 
       <div className="footer-links-container">
         <nav className="footer-nav">
-          <a href="/product" className="footer-link">Product</a>
-          <a href="/features" className="footer-link">Features</a>
-          <a href="/resources" className="footer-link">Resources</a>
-          <a href="/resources" className="footer-link bold-link">HUMANS&gt;AI</a>
-          {/* <h3 >HUMANS&gt;AI</h3> */}
           <a href="/about" className="footer-link">About</a>
-          <a href="/blog" className="footer-link">Blog</a>
-          <a href="/support" className="footer-link">Support</a>
+          <a href="/projects" className="footer-link">Projects</a>
+          <a href="/fellows" className="footer-link">Fellows</a>
+          <a href="/" className="footer-link bold-link">HUMANS&gt;AI</a>
+          {/* <h3 >HUMANS&gt;AI</h3> */}
+          <a href="/mentors" className="footer-link">Mentors</a>
+          <a href="/donate" className="footer-link">Donate</a>
+          <a href="/" className="footer-link">Contact</a>
         </nav>
         <hr className="footer-divider" />
         <div className="footer-socials">
@@ -83,7 +83,7 @@ const Footer = () => {
       </div>
     </div>
         <div className="footer-terms">
-          <p>&copy;  © 2024 Humanitarians AI. All rights reserved. Humanitarians AI is a 501(c)(3) organization.</p>
+          <p>&copy; 2024 Humanitarians AI. All rights reserved. Humanitarians AI is a 501(c)(3) organization</p>
         </div>
       </div>
     </footer>

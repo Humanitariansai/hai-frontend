@@ -11,7 +11,7 @@ const About = () => {
   return (
     
    <>
-    <HeroScreen title={homeTitle}/>
+    <HeroScreen title={homeTitle} bgClassName="hero-about"/>
     <GridCardContainer/>
     <FeatureContainer/>
     <GridCard/>
